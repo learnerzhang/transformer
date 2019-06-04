@@ -78,12 +78,15 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# Environments
+# dotenv
 .env
+
+# virtualenv
 .venv
-env/
+.env
 venv/
 ENV/
+
 
 # Spyder project settings
 .spyderproject
@@ -98,6 +101,10 @@ ENV/
 # mypy
 .mypy_cache/
 
-corpora
-logdir
-preprocessed
+
+*.tar
+
+.idea
+
+.models/
+models/
